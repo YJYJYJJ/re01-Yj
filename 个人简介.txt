@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人信息介绍</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .profile {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .profile h1 {
+            margin: 0;
+        }
+        .content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>个人信息介绍</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="profile">
+            <img src="/OIP.jfif" alt="个人头像">
+            <div>
+                <h1>尹敬</h1>
+                <p>前端开发工程师</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>关于我</h2>
+            <p>您好，我是尹敬，一名经验丰富的前端开发工程师。我热爱编程，擅长使用 HTML、CSS 和 JavaScript 创建互动性强、用户体验良好的网站和应用程序。我喜欢学习新的技术，并且总是寻求改进和优化我的技能。</p>
+            
+            <h2>技能</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Vue.js</li>
+                <li>响应式设计</li>
+            </ul>
+            
+            <h2>联系方式</h2>
+            <p>邮箱: 2468413315@qq.com</p>
+            <p>电话: 15879671468</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 尹敬. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
